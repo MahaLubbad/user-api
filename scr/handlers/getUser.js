@@ -13,6 +13,7 @@ if (idValidity(id)){
    {   
       if(user){
         const userInfo = userComponents(user);
+        usersMainDom.innerHTML = '';
         usersMainDom.append(userInfo);
       }
      
